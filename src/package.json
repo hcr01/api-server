@@ -1,0 +1,16 @@
+{
+  "name": "hcr01-api-server",
+  "version": "1.0.0",
+  "description": "the api server of the hcr01 network",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "test": "echo \"We don't need a test...\" && exit 0",
+    "start": "node server.js"
+  },
+  "author": "dscso",
+  "license": "MIT",
+  "homepage": "https://hcr01.io/"
+}
