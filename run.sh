@@ -16,7 +16,7 @@ else
 	echo "[start] We need to install dependencies using npm...";
 	printf "[start] Do you want to install them know (y/n)? ";
 	read yn;
-	if [ ! "$yn" == "y" ]; then
+	if [ ! "$yn" = "y" ]; then
 		echo "[start] Abort.";
 		exit 1;
 	fi
